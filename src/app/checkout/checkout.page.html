@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Checkout</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+  <ion-item>
+    <ion-label>
+      <h3>{{event.name}}</h3>
+      <p>{{event.description}}</p>
+      <p>Price: {{event.price}}</p>
+      <p>Maximum People Allowed: {{event.maxNoOfPeople}}</p>
+    </ion-label></ion-item>
+    <ion-item *ngFor="let person of people">
+      <ion-label>
+        <h3>{{person.name}}</h3>
+        <p>{{person.email}}</p>
+      </ion-label>
+      <ion-button fill="clear" color="danger" slot="end" (click)="removePerson(person)">
+        Delete
+      </ion-button>
+    </ion-item>
+    
+  <form class="checkout-form ion-padding" *ngIf="toShowForm">  
+    <ion-text><p class="heading">Enter your details</p></ion-text>  
+
+    <p class="label">Name</p>
+    <ion-input type="text" #name required="true"></ion-input>
+
+    <p class="label">Course and Branch/Specialization</p>
+    <ion-input type="text" #course required="true"></ion-input>
+
+    <p class="label">Email</p>
+    <ion-input type="text" #email required="true"></ion-input>
+
+    <ion-button type="submit" #person (click)="addPerson(name, course, email)">Add Person</ion-button>
+  </form>
+</ion-content>
+<ion-footer *ngIf="toShowDone">
+  <ion-button expand="block" (click)="done()">Done</ion-button>
+</ion-footer>

@@ -1,0 +1,82 @@
+ion-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: 'Mulish' !important;
+}
+.login-heading {
+    top: var(--ion-login-heading-top-margin);
+}
+.login-heading h1 {
+    color: var(--ion-color-login-heading-black);
+    font-family: var(--ion-login-heading-font-family);
+    font-size: var(--ion-login-heading-font-size);
+    letter-spacing: var(--ion-login-heading-letter-spacing);
+    font-weight: var(--ion-login-heading-font-weight);
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+.login-heading p {
+    color: rgba(39, 39, 39, 0.4);
+    font-family: var(--ion-login-sub-heading-font-family);
+    font-size: var(--ion-login-sub-heading-font-size);
+    letter-spacing: var(--ion-login-sub-heading-letter-spacing);
+    font-weight: var(--ion-login-sub-heading-font-weight);
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+.login-form {
+    top: 30%;
+    width: 100%;
+}
+.email-pass-label {
+    color: var(--ion-color-login-heading-black);
+    font-family: var(--ion-login-sub-heading-font-family);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+ion-input {
+    border-radius: 10px !important;
+    padding-right: 30px;
+    font-size: 0.9em;
+    border: 1px solid #f1f1f1 !important;
+    --background: transparent !important;
+}
+.login-button {
+    margin-top: 5%;
+}
+.line-breaker {
+    width: 100%; 
+    height: 10px; 
+    border-bottom: 1px solid rgba(39, 39, 39, 0.4); 
+    text-align: center;
+    margin-top: 10%;
+}
+.line-breaker-text {
+    background-color: var(--ion-login-line-breaker-bg);
+    padding: 0 10px;
+    font-family: var(--ion-login-sub-heading-font-family);
+    font-size: var(--ion-login-sub-heading-font-size);
+    letter-spacing: var(--ion-login-sub-heading-letter-spacing);
+    font-weight: var(--ion-login-sub-heading-font-weight);
+    color: var(--ion-color-sub-login-heading-black);
+}
+
+.last-text {
+    text-align: center;
+}
+.last-text p {
+    color: var(--ion-color-login-heading-black);
+    font-family: var(--ion-login-sub-heading-font-family);
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+}
+.last-text p span {
+    color: var(--ion-color-primary);
+}

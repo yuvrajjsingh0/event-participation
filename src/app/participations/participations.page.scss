@@ -1,0 +1,55 @@
+
+#heading{
+    font-family: var(--ion-surveys-heading-font-family);
+    font-style: normal;
+    font-weight: var(--ion-surveys-heading-font-weight);
+    font-size: var(--ion-surveys-heading-font-size);
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+    color: var(--ion-surveys-heading-color);
+}
+
+#subtitle{
+    font-family: var(--ion-surveys-sub-heading-font-family);
+    font-style: normal;
+    font-weight: var(--ion-surveys-sub-heading-font-weight);
+    font-size: var(--ion-surveys-sub-heading-font-size);
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: var(--ion-surveys-sub-heading-color);
+}
+
+#card{
+    background-color: aqua;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    box-shadow: none;
+    border-radius: 12px;
+}
+
+.avatar{
+    border:4px solid white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    width: 18px;
+    height: 18px;
+}
+
+#card-heading{
+    font-weight: 700;
+    color: var(--ion-surveys-heading-color);
+}
+
+#card-content{
+    font-weight: 400;
+}
+
+.joinButton{
+    --border-radius: 6px;
+    --box-shadow: none;
+}

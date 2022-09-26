@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Certificates</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row style="padding-left: 24px;padding-right: 24px;" *ngFor="let event of events">
+      <ion-card id="card" [style.background-color]="event.bgColor">
+      
+        <ion-card-content id="card-content">
+          <ion-grid>
+              <ion-row>
+                <ion-col>
+                  <ion-row style="margin-top: 8px;">
+                    <ion-card-title id="card-heading">{{event.name}}</ion-card-title>
+                  </ion-row>
+                  <ion-row>
+                    <ion-text id="card-content">{{event.description}}</ion-text>
+                  </ion-row>
+                </ion-col>
+                <ion-col>
+                  <ion-row class="ion-justify-content-end">
+                    <ion-button class="joinButton" color="primary" (click)="viewCertificate(event)">View Certificate</ion-button>
+                    <!--<ion-button *ngIf="goal.isJoined" class="joinButton" color="primary">Joined</ion-button>-->
+                  </ion-row>
+                </ion-col>
+              </ion-row>
+              
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
+  </ion-grid>
+</ion-content>

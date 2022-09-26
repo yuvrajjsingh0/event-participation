@@ -1,0 +1,40 @@
+
+.heading{
+    font-family: var(--ion-surveys-heading-font-family);
+    font-style: normal;
+    font-weight: var(--ion-surveys-heading-font-weight);
+    font-size: var(--ion-surveys-heading-font-size);
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+    color: var(--ion-surveys-heading-color);
+}
+
+#subtitle{
+    font-family: var(--ion-surveys-sub-heading-font-family);
+    font-style: normal;
+    font-weight: var(--ion-surveys-sub-heading-font-weight);
+    font-size: var(--ion-surveys-sub-heading-font-size);
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: var(--ion-surveys-sub-heading-color);
+}
+
+.label {
+    color: var(--ion-color-login-heading-black);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+ion-input {
+    width: 100%;
+    border-radius: 10px !important;
+    padding-right: 30px;
+    font-size: 0.9em;
+    border: 1px solid #f1f1f1 !important;
+    --background: transparent !important;
+}

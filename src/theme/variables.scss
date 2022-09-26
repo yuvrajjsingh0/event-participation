@@ -74,6 +74,22 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /** login heading-black **/
+  --ion-color-login-heading-black: #272727;
+  --ion-login-heading-font-family: 'Mulish';
+  --ion-login-heading-font-size: 24px;
+  --ion-login-heading-letter-spacing: 0.02em;
+  --ion-login-heading-top-margin: 15px;
+  --ion-login-heading-font-weight: 800;
+
+  /** login sub-heading **/
+  --ion-color-sub-login-heading-black: rgba(39, 39, 39, 0.4);
+  --ion-login-sub-heading-font-family: 'Mulish';
+  --ion-login-sub-heading-font-size: 14px;
+  --ion-login-sub-heading-letter-spacing: 0.02em;
+  --ion-login-sub-heading-top-margin: 15px;
+  --ion-login-sub-heading-font-weight: 400;
 }
 
 @media (prefers-color-scheme: dark) {
