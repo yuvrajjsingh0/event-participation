@@ -18,7 +18,7 @@ Features:
 4. Cross Platform viz iOS and Android
 
 ## Android Screenshots
-![alt text]([http://url/to/img.png](https://github.com/yuvrajjsingh0/event-participation/blob/master/android1.png?raw=true))
-![alt text]([http://url/to/img.png](https://github.com/yuvrajjsingh0/event-participation/blob/master/android2.png?raw=true))
-![alt text]([http://url/to/img.png](https://github.com/yuvrajjsingh0/event-participation/blob/master/android3.png?raw=true))
-![alt text]([http://url/to/img.png](https://github.com/yuvrajjsingh0/event-participation/blob/master/android4.png?raw=true))
+![alt text](https://raw.githubusercontent.com/yuvrajjsingh0/event-participation/master/android1.png)
+![alt text](https://raw.githubusercontent.com/yuvrajjsingh0/event-participation/master/android2.png)
+![alt text](https://raw.githubusercontent.com/yuvrajjsingh0/event-participation/master/android3.png)
+![alt text](https://raw.githubusercontent.com/yuvrajjsingh0/event-participation/master/android4.png)
