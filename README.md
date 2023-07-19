@@ -1,7 +1,5 @@
 # College Event Participation Application (Ionic + Firebase)
 
-![App Logo](app_logo.png) (if you have an app logo, include it in the root directory)
-
 Welcome to our College Event Participation Application! This app is built using the Ionic framework and Firebase for real-time data storage. It allows students to explore and participate in various college events, making event management and participation seamless and efficient.
 
 ## Features
@@ -12,24 +10,25 @@ Welcome to our College Event Participation Application! This app is built using 
 
 - **Participation Registration:** Register and indicate your interest in participating in specific events.
 
-- **Real-time Updates:** All event information is updated in real-time, ensuring you receive the latest event details.
+- **Real-time Updates:** All event information is updated in real-time, ensuring you receive the latest event details. (Developing)
 
-- **User Authentication:** Students can sign up and log in securely to access the app's features.
+- **Certification:** Automatically generates certificate upon completion of the event.
+
+- **User Authentication:** Students can sign up and login securely to access the app's features.
 
 ## Getting Started
 
 To run the application locally or on a device, follow these steps:
 
 1. Clone the repository:
-
+~~~
 git clone https://github.com/your-username/college-event-app.git
 cd college-event-app
-
+~~~
 2. Install dependencies:
-
+~~~
 npm install
-
-
+~~~
 3. Configure Firebase:
 
 - Create a new project on [Firebase](https://firebase.google.com/) if you haven't already.
@@ -79,9 +78,9 @@ git checkout -b feature/your-feature-name
 3. Make your changes and test thoroughly.
 4. Commit your changes:
 5. Push to the branch:
-
+~~~
 git push origin feature/your-feature-name
-
+~~~
 
 6. Create a Pull Request to merge your changes into the main repository.
 
@@ -95,15 +94,13 @@ This College Event Participation Application is open-source and available under 
 
 ## Acknowledgments
 
-We would like to express our gratitude to the contributors and the open-source community for their support in building and improving this application.
-
 Thank you for using our College Event Participation Application! We hope you have a fantastic experience exploring and participating in college events through this app.
 
 Happy Eventing! 🎉
 
 
 
-https://youtu.be/GH9nhIRdFFY
+## DEMO VIDEO: https://youtu.be/GH9nhIRdFFY
 ## Android Screenshots
 ![alt text](https://raw.githubusercontent.com/yuvrajjsingh0/event-participation/master/android1.png)
 ![alt text](https://raw.githubusercontent.com/yuvrajjsingh0/event-participation/master/android2.png)
