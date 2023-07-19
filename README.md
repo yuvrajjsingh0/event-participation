@@ -72,9 +72,9 @@ We welcome contributions to improve and enhance our college event application! I
 1. Fork the repository.
 
 2. Create a new branch:
-
+~~~
 git checkout -b feature/your-feature-name
-
+~~~
 3. Make your changes and test thoroughly.
 4. Commit your changes:
 5. Push to the branch:
